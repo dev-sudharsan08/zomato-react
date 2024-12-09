@@ -1,0 +1,14 @@
+.focus-out {
+    //   &:active {
+    //     border: none;
+    //     outline: none;
+    //   }
+    &:focus-visible {
+      border: none;
+      outline: none;
+    }
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }

@@ -1,0 +1,28 @@
+.drop {
+  max-height: 290px;
+  overflow-y: scroll;
+}
+
+// .wrapper {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+// }
+
+.wrapper div {
+  flex: 50%;
+}
+
+.focus-out {
+  //   &:active {
+  //     border: none;
+  //     outline: none;
+  //   }
+  &:focus-visible {
+    border: none;
+    outline: none;
+  }
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}

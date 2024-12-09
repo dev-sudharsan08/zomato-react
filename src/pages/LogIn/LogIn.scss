@@ -1,0 +1,25 @@
+.drop {
+  max-height: 110px;
+  overflow-y: scroll;
+}
+
+.focus-out {
+  //   &:active {
+  //     border: none;
+  //     outline: none;
+  //   }
+  &:focus-visible {
+    border: none;
+    outline: none;
+  }
+  &:focus {
+    border: none;
+    // outline: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .login-modal {
+    width: 300px;
+  }
+}

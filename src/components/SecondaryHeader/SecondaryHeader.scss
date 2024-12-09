@@ -1,0 +1,14 @@
+.menu-styles {
+  // @media screen and (min-width: 1000px) {
+  //   width: 100%;
+  // }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    width: 40%;
+  }
+  @media screen and (max-width: 575px) {
+    width: 45%;
+  }
+}
